@@ -1,4 +1,4 @@
-# Community Hass.io Add-ons: AppDaemon
+# Community Hass.io Add-ons: Mopidy
 
 [![GitHub Release][releases-shield]][releases]
 ![Project Stage][project-stage-shield]
@@ -71,14 +71,6 @@ Example add-on configuration:
     {
       "name": "spotify/client_secret",
       "value": "spotify-client-secret="
-    },
-    {
-      "name": "local/library",
-      "value": "sqlite"
-    },
-    {
-      "name": "local/scan_flush_threshold",
-      "value": "100"
     }
   ]
 }
