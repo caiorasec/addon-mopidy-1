@@ -62,6 +62,8 @@ RUN \
         build-essential \
         gcc \
         python-dev \
+        dpkg-dev \
+        gcc-7 \
     && rm -fr \
         /tmp/* \
         /var/{cache,log}/* \
