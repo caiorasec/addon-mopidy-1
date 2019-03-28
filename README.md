@@ -46,10 +46,7 @@ Example add-on configuration:
 {
   "log_level": "info",
   "disable_auto_token": false,
-  "system_packages": [
-    "mopidy-soundcloud",
-    "mopidy-tunein"
-  ],
+  "system_packages": [],
   "python_packages": [],
   "settings": [
     {
