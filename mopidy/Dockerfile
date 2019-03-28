@@ -64,6 +64,7 @@ RUN \
         python-dev \
         dpkg-dev \
         gcc-7 \
+        luarocks \
     && rm -fr \
         /tmp/* \
         /var/{cache,log}/* \
