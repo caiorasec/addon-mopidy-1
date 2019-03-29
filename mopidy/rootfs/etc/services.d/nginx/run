@@ -5,11 +5,11 @@
 # ==============================================================================
 declare -a options
 
-# Wait for code-server to become available
-s6-svwait -u -t 5000 /var/run/s6/services/code
+# Wait for mopidy-server to become available
+s6-svwait -u -t 5000 /var/run/s6/services/mopidy
 timeout 15 \
     bash -c \
-        'until echo > /dev/tcp/localhost/8443 ; do sleep 0.5; done' \
+        'until echo > /dev/tcp/localhost/4478 ; do sleep 0.5; done' \
             > /dev/null 2>&1
 
 bashio::log.info "Starting NGinx..."
