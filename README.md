@@ -123,8 +123,8 @@ documentation:
 
 ## Embedding into Home Assistant
 
-It is possible to embed Modipy directly into Home Assistant, allowing
-you to access your Modipy through the Home Assistant frontend.
+It is possible to embed mopidy directly into Home Assistant, allowing
+you to access your mopidy through the Home Assistant frontend.
 
 Home Assistant provides the `panel_iframe` component, for these purposes.
 
@@ -218,28 +218,28 @@ SOFTWARE.
 [alpine-packages]: https://pkgs.alpinelinux.org/packages
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/frenck
-[commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-modipy.svg
-[commits]: https://github.com/hassio-addons/addon-modipy/commits/master
-[contributors]: https://github.com/hassio-addons/addon-modipy/graphs/contributors
+[commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-mopidy.svg
+[commits]: https://github.com/hassio-addons/addon-mopidy/commits/master
+[contributors]: https://github.com/hassio-addons/addon-mopidy/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/?u=frenck
 [frenck]: https://github.com/frenck
-[gitlabci-shield]: https://gitlab.com/hassio-addons/addon-modipy/badges/master/pipeline.svg
-[gitlabci]: https://gitlab.com/hassio-addons/addon-modipy/pipelines
+[gitlabci-shield]: https://gitlab.com/hassio-addons/addon-mopidy/badges/master/pipeline.svg
+[gitlabci]: https://gitlab.com/hassio-addons/addon-mopidy/pipelines
 [home-assistant]: https://home-assistant.io
-[issue]: https://github.com/hassio-addons/addon-modipy/issues
+[issue]: https://github.com/hassio-addons/addon-mopidy/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
-[license-shield]: https://img.shields.io/github/license/hassio-addons/addon-modipy.svg
+[license-shield]: https://img.shields.io/github/license/hassio-addons/addon-mopidy.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
 [patreon-shield]: https://www.frenck.nl/images/patreon.png
 [patreon]: https://www.patreon.com/
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
 [python-packages]: https://pypi.org/
 [reddit]: https://reddit.com/r/homeassistant
-[releases-shield]: https://img.shields.io/github/release/hassio-addons/addon-modipy.svg
-[releases]: https://github.com/hassio-addons/addon-modipy/releases
+[releases-shield]: https://img.shields.io/github/release/hassio-addons/addon-mopidy.svg
+[releases]: https://github.com/hassio-addons/addon-mopidy/releases
 [repository]: https://github.com/hassio-addons/repository
 [semver]: http://semver.org/spec/v2.0.0.htm
