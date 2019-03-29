@@ -68,6 +68,18 @@ Example add-on configuration:
     {
       "name": "spotify/client_secret",
       "value": "spotify-client-secret="
+    },
+    {
+      "name": "gmusic/username",
+      "value": "username"
+    },
+    {
+      "name": "gmusic/password",
+      "value": "thesupersecretpassword"
+    },
+    {
+      "name": "gmusic/deviceid",
+      "value": "yodeviceid"
     }
   ]
 }
