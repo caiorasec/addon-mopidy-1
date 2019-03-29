@@ -42,6 +42,8 @@ RUN \
         gstreamer1.0-plugins-bad=1.14.1-1ubuntu1~ubuntu18.04.1 \
         gstreamer1.0-pulseaudio=1.14.1-1ubuntu1~ubuntu18.04.1 \
     \
+    && luarocks install lua-resty-http 0.13-0 \
+    \
     && curl https://bootstrap.pypa.io/get-pip.py | python \
     && pip install --no-cache-dir -r /tmp/requirements.txt \
     \
@@ -66,10 +68,10 @@ RUN \
         gcc-7 \
         luarocks \
     && rm -fr \
-        /tmp/* \
         /var/{cache,log}/* \
         /var/lib/apt/lists/* \
-        /root/.cache
+        /root/.cache \
+    && find /tmp/ -mindepth 1  -delete
 
 # Copy root filesystem
 COPY rootfs /
@@ -87,12 +89,12 @@ LABEL \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
-    maintainer="Franck Nijhof <frenck@addons.community>" \
+    maintainer="Bram Mittendorff, Franck Nijhof, Robbert Müller" \
     org.label-schema.description="Mopidy is an extensible music server" \
     org.label-schema.build-date=${BUILD_DATE} \
-    org.label-schema.name="AppDaemon3" \
+    org.label-schema.name="Mopidy" \
     org.label-schema.schema-version="1.0" \
-    org.label-schema.url="https://community.home-assistant.io/?u=frenck" \
+    org.label-schema.url="https://community.home-assistant.io/" \
     org.label-schema.usage="https://github.com/hassio-addons/addon-mopidy/tree/master/README.md" \
     org.label-schema.vcs-ref=${BUILD_REF} \
     org.label-schema.vcs-url="https://github.com/hassio-addons/addon-mopidy" \
