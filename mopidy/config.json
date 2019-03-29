@@ -42,6 +42,7 @@
         "name": "str",
         "value": "str"
       }
-    ]
+    ],
+    "leave_front_door_open": "bool?"
   }
 }
